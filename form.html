@@ -1,0 +1,89 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+        <link rel="stylesheet" href="style1.css">
+    </head>
+    <body>
+        
+        <form action="action_page.php" method="post">
+            <div>
+                <label for="firstname">Firstname:</label>
+                <input type="text" id="firstname" name="firstname" placeholder="Firstname">
+            </div>
+
+            <br>
+
+
+            <div>
+                <label for="lastname">Lastname:</label>
+                <input type="text" id="lastname" name="lastname" placeholder="Lastname">
+            </div>    
+                
+
+            <br>
+
+            <div class="div-1">
+                Male:<input type="radio" name="gender" value="Male">
+                Female:<input type="radio" name="gender" value="Female">
+            
+            </div>
+            
+            <br>
+
+            <div>
+                <label for="password">Password:</label>
+                <input type="text" name="pwd" placeholder="Password">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="text" name="email" placeholder="example@gmail.com">
+            </div>
+
+            <br>
+            
+            <div>
+                <label for="phone">Phone Number:</label>
+                <input type="text" name="phone" placeholder="Phone Number" required>
+            </div>
+            
+            <br>
+            
+            <div>
+                <label for="DOB">Date of Birth:</label>
+                <input type="date" name="DOB">
+            </div>
+
+            <br>
+
+           <div>
+            <label for="address">Street Address:</label>
+            <input type="text" name="address" placeholder="Street address">
+           </div>
+
+           <br>
+
+           <div>
+            <label for="City">City:</label>
+            <select name="city">
+                <option value="other">Other</option>
+                <option value="city1">Kampala</option>
+                <option value="city2">Mbarara</option>
+                <option value="city3">Gulu</option>
+                <option value="city4">Masaka</option>
+                <option value="city5">Jinja</option>
+                <option value="city6">Entebbe</option>
+            </select>
+           </div>
+
+            <br>
+            <button type="submit" name="Submit">Submit</button>
+        </form>
+    </body>
+    </html>
